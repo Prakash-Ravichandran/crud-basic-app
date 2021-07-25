@@ -1,0 +1,16 @@
+
+* input {
+    display: block;
+    margin-block: 1em;
+}
+
+* label{
+    display: block;
+    margin-block: 1em;  
+}
+
+button {
+    color : blue ;
+    background: cornsilk;
+}
+
