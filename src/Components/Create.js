@@ -52,6 +52,7 @@ export function Create(){
     return(
         <>
         <h3>Welcome to GET API</h3>
+        <Link to="/"><button>Home</button></Link>
         <div style={{border: 20}}>
         <form name="createUser">
             <fieldset>
@@ -69,7 +70,7 @@ export function Create(){
             </fieldset>
         </form>
         </div>
-        <Link to="/"><button>Back To Home</button></Link>
+       
         </>
     )
 }
