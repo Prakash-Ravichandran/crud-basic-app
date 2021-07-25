@@ -42,7 +42,7 @@ const FetchComponent = ({user}) => {
     return (
         <div>
             <h1>REACT CRUD APPLICATION</h1>
-            <Link to="/create"><button>Create User</button></Link>
+            <Link to="/create"><button>Read User</button></Link>
             {/* <form name="myform">
                 <label htmlFor="name">Name :</label> <br></br>
                 <input type="text" name="firstName" id="name" value={user}/>

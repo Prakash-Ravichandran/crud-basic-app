@@ -47,10 +47,11 @@ export function Create(){
 
         })
      })
-   
+
+  
     return(
         <>
-        <h3>Hello i am a create component</h3>
+        <h3>Welcome to GET API</h3>
         <div style={{border: 20}}>
         <form name="createUser">
             <fieldset>
