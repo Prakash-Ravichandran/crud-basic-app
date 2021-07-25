@@ -10,7 +10,7 @@ async function Call(){
 
     let commits = await response.json()
 
-    console.log(commits[0].author.login);
+    // console.log(commits[0].author.login);
 
 
 }
@@ -25,11 +25,11 @@ async function CallTwo(){
 
     // let formData = await response.formData();
 
-    console.log(myJson);
-    console.log(typeof (myJson));
-    console.log(Array.isArray(myJson));
+    // console.log(myJson);
+    // console.log(typeof (myJson));
+    // console.log(Array.isArray(myJson));
 
-    console.log(myJson[0]);
+    // console.log(myJson[0]);
 
     <FetchComponent user = "hello"/>
     // console.log(formData);
